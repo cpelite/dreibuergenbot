@@ -4,5 +4,5 @@ git pull
 echo "Aktiviere VENV"
 source /venv/bin/activate
 echo "Starte Bot"
-nohup python3 dbbot.py
+nohup python3 bot.py
 echo "Beende Bot."
