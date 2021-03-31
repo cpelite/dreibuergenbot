@@ -14,6 +14,7 @@ intents.members = True
 bot = commands.Bot(command_prefix='$', intents=intents)
 
 #load extensions
+bot.load_extension("personennordhanar")
 
 #bot start-up-message
 @bot.event
