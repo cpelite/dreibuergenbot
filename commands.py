@@ -20,7 +20,7 @@ class funcommands(commands.Cog):
         return
 
 class reichslaender(commands.Cog):
-    def __init(self,mdnbot):
+    def __init__(self,mdnbot):
         self.bot = mdnbot
 
     @commands.command()
