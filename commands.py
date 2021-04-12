@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 
 class funcommands(commands.Cog):
-    def __init__(self,dbbot):
-        self.bot = dbbot
+    def __init__(self,mdnbot):
+        self.bot = mdnbot
 
     @commands.command()
     async def watschenwald(self, ctx):
