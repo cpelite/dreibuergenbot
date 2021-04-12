@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 
 class funcommands(commands.Cog):
-    def __init__(self,mdnbot):
-        self.bot = mdnbot
+    def __init__(self,dbbot):
+        self.bot = dbbot
 
     @commands.command()
     async def watschenwald(self, ctx):
@@ -23,7 +23,7 @@ class reichsländer:
     def __init(self, mdnbot):
         self.bot = mdnbot
 
-    @commands.comand()
+    @commands.command()
     async def reichstal(self, ctx):
         embed = discord.Embed(title="Informationen über Reichstal")
         embed.add_field(name="Hauptstadt", value="Reichstal")
