@@ -106,4 +106,4 @@ class reichslaender:
 
 def setup(bot):
     bot.add_cog(funcommands(bot))
-    bot.add_cog(reichsländer(bot))
+    bot.add_cog(reichslaender(bot))
