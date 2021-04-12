@@ -19,7 +19,7 @@ class funcommands(commands.Cog):
         await ctx.send(embed=embed)
         return
 
-class reichslaender:
+class reichslaender(commands.Cog):
     def __init(self,mdnbot):
         self.bot = mdnbot
 
