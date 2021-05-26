@@ -8,7 +8,7 @@ class gifs(commands.Cog):
     @commands.command()
     async def delta(self, ctx):
         embed = discord.Embed(title="Delta halt...")
-        embed.set_image(url="https://media1.tenor.com/images/dc3821d4cb8f871034d39983484c3e18/tenor.gif?itemid=16606549)
+        embed.set_image(url="https://media1.tenor.com/images/dc3821d4cb8f871034d39983484c3e18/tenor.gif?itemid=16606549")
         await ctx.send(embed=embed)
         return
 
