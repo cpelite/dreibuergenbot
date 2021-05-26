@@ -20,7 +20,7 @@ class gifs(commands.Cog):
         return
 
     @commands.command()
-    async def kaiserlacht(self, ctx):
+    async def laughing(self, ctx):
         embed = discord.Embed(title="Der Kaiser findet Ihren Beitrag zur Debatte erheiternd.")
         embed.set_image(url="https://media1.tenor.com/images/e6d3043a6ee5a4ec30b5ca23b70baf28/tenor.gif?itemid=18896357")
         await ctx.send(embed=embed)
