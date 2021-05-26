@@ -8,14 +8,14 @@ class gifs(commands.Cog):
     @commands.command()
     async def delta(self, ctx):
         embed = discord.Embed(title="Delta halt...")
-        embed.set_image(url="https://media.tenor.com/images/b9f7f39603388b34441f199d1b543533/tenor.gif")
+        embed.set_image(url="https://media1.tenor.com/images/dc3821d4cb8f871034d39983484c3e18/tenor.gif?itemid=16606549)
         await ctx.send(embed=embed)
         return
 
     @commands.command()
     async def kolonien(self, ctx):
         embed = discord.Embed(title="Kolonien!")
-        embed.set_image(url="https://media.tenor.com/images/9b381e87f3e793f8c5fdb1ce49f77b02/tenor.gif")
+        embed.set_image(url="https://media1.tenor.com/images/e710cf539e44682cdd427372ae3e5da4/tenor.gif?itemid=19541838")
         await ctx.send(embed=embed)
         return
 
@@ -29,7 +29,7 @@ class gifs(commands.Cog):
     @commands.command()
     async def einmarsch(self, ctx):
         embed = discord.Embed(title="Wenn Dreibürgen wieder mal wo einmarschiert...")
-        embed.set_image(url="https://media.tenor.com/images/2907a8fcbd38e8eef3cb609ccd783e3a/tenor.gif")
+        embed.set_image(url="https://media1.tenor.com/images/940fab33108e1f6bd61cad3c768f6ca1/tenor.gif?itemid=20974358")
         await ctx.send(embed=embed)
         return
 
