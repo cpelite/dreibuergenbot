@@ -104,6 +104,25 @@ class reichslaender(commands.Cog):
         await ctx.send(embed=embed)
         return
 
+class sonstige(commands.Cog):
+    def __init__(self,mdnbot):
+        self.bot = mdnbot
+
+    @commands.command()
+    async def reichstag(self, ctx):
+        embed = discord.Embed(title="Sitzverteilung in der LXII. Sitzungsperiode des Reichstags")
+        embed.set_image(url="https://forum.dreibuergen.van-mauritz.de/index.php?image-proxy/&key=f1208fc6485581a02b86fa878337bbe24078bdbe0d4c1ec3ba06f38eb1e9c5dc-aHR0cHM6Ly9iaWxkZXIuZGVyLm1pa3JvbmF0aW9uZW4uZGUvdXBsb2Fkcy8yMDIxLzA2L2kxMTk5M2JpZXdnYy5wbmc%3D")#
+        embed.add_field(name="Fraktion der Partei der Arbeit Dreibürgens (PDADB)", value="62 Sitze")
+        embed.add_field(name="Fortschrittliche Volkspartei (FVP)", value="124 Sitze")
+        embed.add_field(name="Fraktion der Nationalliberalen Partei (NLP)", value="144 Sitze")
+        embed.add_field(name="Fraktion der Christlich-Sozialen Volkspartei (CSVP)", value="81 Sitze")
+        embed.add_field(name="Kaisertreue Union des Konservativen Gedankenguts (KUdeKG)", value="185 Sitze")
+        embed.add_field(name="Fraktion des Mouvement impérialiste pour la Restauration de l'Absolutisme/Kaisertreue Bewegung für die Wiederherstellung des Absolutismus (MIRA/BdK)", value="124 Sitze")
+        embed.add_field(name="Fraktion des Dreibürgischen Nationalkonservativen Zentrums (DNZ", value="124 Sitze")
+        await ctx.send(embed=embed)
+        return
+
 def setup(bot):
     bot.add_cog(funcommands(bot))
     bot.add_cog(reichslaender(bot))
+    bot.add_cog(sonstige(bot))

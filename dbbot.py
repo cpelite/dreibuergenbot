@@ -17,12 +17,6 @@ bot = commands.Bot(command_prefix='$', intents=intents)
 bot.load_extension("commands")
 bot.load_extension("gifs")
 
-#bot start-up-message
-@bot.event
-async def on_ready():
-    print("Entwickelt von SvH - Bot-Version: Beta 1")
-    print ("Bot aktiv und an der Discord-API angemeldet, warte auf Befehle.")
-
 #bot-version
 @bot.command()
 async def botinfo(ctx):
