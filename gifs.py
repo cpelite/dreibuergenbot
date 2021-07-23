@@ -33,5 +33,12 @@ class gifs(commands.Cog):
         await ctx.send(embed=embed)
         return
 
+    @commands.command()
+    async def iseewhatyoudidthere(self, ctx):
+        embed = discord.Embed(title="I see what you did there...")
+        embed.set_image(url="https://media1.tenor.com/images/d75387d37800addae30a6f33c196a036/tenor.gif?itemid=11363998")
+        await ctx.send(embed=embed)
+        return
+
 def setup(bot):
     bot.add_cog(gifs(bot))
