@@ -118,7 +118,7 @@ class sonstige(commands.Cog):
         embed.add_field(name="Fraktion der Christlich-Sozialen Volkspartei (CSVP)", value="81 Sitze")
         embed.add_field(name="Kaisertreue Union des Konservativen Gedankenguts (KUdeKG)", value="185 Sitze")
         embed.add_field(name="Fraktion des Mouvement impérialiste pour la Restauration de l'Absolutisme/Kaisertreue Bewegung für die Wiederherstellung des Absolutismus (MIRA/BdK)", value="124 Sitze")
-        embed.add_field(name="Fraktion des Dreibürgischen Nationalkonservativen Zentrums (DNZ", value="124 Sitze")
+        embed.add_field(name="Fraktion des Dreibürgischen Nationalkonservativen Zentrums (DNZ)", value="124 Sitze")
         await ctx.send(embed=embed)
         return
 
